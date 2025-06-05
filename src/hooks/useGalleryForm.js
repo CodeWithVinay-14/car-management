@@ -19,9 +19,9 @@ const useGalleryForm = () => {
     dispatch(fetchAllVehicles());
   }, [dispatch]);
 
-  const handleFilterChange = (e) => {
-    setFilters({ ...filters, [e.target.name]: e.target.value });
-  };
+  // const handleFilterChange = (e) => {
+  //   setFilters({ ...filters, [e.target.name]: e.target.value });
+  // };
 
   const handleSearch = () => {
     setCurrentPage(0); // Reset to first page when filters are applied
@@ -36,19 +36,19 @@ const useGalleryForm = () => {
   };
 
   // Apply filters
-  const filteredVehicles = vehicles.filter((vehicle) => {
-    const matchBrand = filters.brand ? vehicle.brand === filters.brand : true;
-    const matchType = filters.type ? vehicle.type === filters.type : true;
-    const matchPrice =
-      filters.price === "under-20k"
-        ? vehicle.price < 20000
-        : filters.price === "20k-50k"
-        ? vehicle.price >= 20000 && vehicle.price <= 50000
-        : filters.price === "above-50k"
-        ? vehicle.price > 50000
-        : true;
-    return matchBrand && matchType && matchPrice;
-  });
+  // const filteredVehicles = vehicles.filter((vehicle) => {
+  //   const matchBrand = filters.brand ? vehicle.brand === filters.brand : true;
+  //   const matchType = filters.type ? vehicle.type === filters.type : true;
+  //   const matchPrice =
+  //     filters.price === "under-20k"
+  //       ? vehicle.price < 20000
+  //       : filters.price === "20k-50k"
+  //       ? vehicle.price >= 20000 && vehicle.price <= 50000
+  //       : filters.price === "above-50k"
+  //       ? vehicle.price > 50000
+  //       : true;
+  //   return matchBrand && matchType && matchPrice;
+  // });
 
   const totalPages = Math.ceil(filteredVehicles.length / VEHICLES_PER_PAGE);
 
