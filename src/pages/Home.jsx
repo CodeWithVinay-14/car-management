@@ -48,7 +48,7 @@ const Home = () => {
             <div className="col-md-6">
               <div
                 id="banner_slider"
-                className="carousel slide"
+                className="carousel slide" 
                 data-ride="carousel"
               >
                 <div className="carousel-inner">
