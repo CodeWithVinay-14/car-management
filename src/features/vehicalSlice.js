@@ -11,7 +11,7 @@ export const fetchAllVehicles = createAsyncThunk(
   "vehicleInfo/fetchAllVehicles",
   async (_, thunkAPI) => {
     try {
-      const response = await axios.get("http://localhost:3000/Vehicle");
+      const response = await axios.get("");
     //   console.log("Fetched vehicles:", response.data);
       return response.data;
     } catch (error) {
