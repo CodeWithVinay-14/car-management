@@ -1,0 +1,215 @@
+{
+  "Vehicle": [
+  {
+    "id": "1",
+    "model_no": "LX-2023-A1",
+    "name": "Luxury Car 1",
+    "brand": "Luxona",
+    "year": 2023,
+    "price": 125000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A premium luxury sedan with advanced technology, comfortable interiors, and powerful performance."
+  },
+  {
+    "id": "2",
+    "model_no": "RX-2022-B2",
+    "name": "Luxury Car 2",
+    "brand": "Royalcars",
+    "year": 2022,
+    "price": 115000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A sporty luxury coupe with stunning design, dynamic handling, and high-end features."
+  },
+  {
+    "id": "3",
+    "model_no": "XT-2024-C3",
+    "name": "Luxury Car 3",
+    "brand": "Excellia",
+    "year": 2024,
+    "price": 135000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A state-of-the-art luxury SUV combining robust performance with exquisite interior styling."
+  },
+  {
+    "id": "4",
+    "model_no": "EL-2023-D4",
+    "name": "Luxury Car 4",
+    "brand": "Elite Motors",
+    "year": 2023,
+    "price": 140000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "An electric luxury vehicle offering zero emissions, cutting-edge technology, and refined comfort."
+  },
+  {
+    "id": "5",
+    "model_no": "GB-2021-E5",
+    "name": "Luxury Car 5",
+    "brand": "GlamBoutique",
+    "year": 2021,
+    "price": 119000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A stylish and elegant luxury convertible with superior aerodynamics and smooth drive."
+  },
+  {
+    "id": "6",
+    "model_no": "NR-2023-F6",
+    "name": "Luxury Car 6",
+    "brand": "NexRail",
+    "year": 2023,
+    "price": 128500,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A luxurious hybrid sedan delivering efficiency and class with remarkable interior details."
+  },
+  {
+    "id": "7",
+    "model_no": "PR-2022-G7",
+    "name": "Luxury Car 7",
+    "brand": "Premier",
+    "year": 2022,
+    "price": 132000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A premium sports car with aggressive styling, high horsepower, and top-tier comfort."
+  },
+  {
+    "id": "8",
+    "model_no": "CR-2023-H8",
+    "name": "Luxury Car 8",
+    "brand": "CrownRide",
+    "year": 2023,
+    "price": 150000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "An ultra-luxury sedan with bespoke interiors and cutting-edge safety features."
+  },
+  {
+    "id": "9",
+    "model_no": "VL-2022-I9",
+    "name": "Luxury Car 9",
+    "brand": "VeloceLuxury",
+    "year": 2022,
+    "price": 142000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A performance luxury coupe with sleek design and advanced infotainment system."
+  },
+  {
+    "id": "10",
+    "model_no": "MN-2023-J10",
+    "name": "Luxury Car 10",
+    "brand": "Monarch",
+    "year": 2023,
+    "price": 138000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A luxury SUV combining power and comfort with spacious interiors and advanced safety."
+  },
+  {
+    "id": "11",
+    "model_no": "RN-2021-K11",
+    "name": "Luxury Car 11",
+    "brand": "Renaissance",
+    "year": 2021,
+    "price": 134500,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A vintage-styled luxury car with modern tech and classic design cues."
+  },
+  {
+    "id": "12",
+    "model_no": "ST-2024-L12",
+    "name": "Luxury Car 12",
+    "brand": "Sterling",
+    "year": 2024,
+    "price": 145000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A futuristic luxury electric car designed for performance with zero emissions."
+  },
+  {
+    "id": "13",
+    "model_no": "DL-2023-M13",
+    "name": "Luxury Car 13",
+    "brand": "DulcetLux",
+    "year": 2023,
+    "price": 126000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A luxury sport sedan with minimalist design and excellent driving dynamics."
+  },
+  {
+    "id": "14",
+    "model_no": "ZR-2022-N14",
+    "name": "Luxury Car 14",
+    "brand": "Zerra",
+    "year": 2022,
+    "price": 130000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A grand touring car with refined interiors and powerful engine options."
+  },
+  {
+    "id": "15",
+    "model_no": "BV-2023-O15",
+    "name": "Luxury Car 15",
+    "brand": "Belvoir",
+    "year": 2023,
+    "price": 129500,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A luxury convertible offering unmatched style and smooth ride experience."
+  },
+  {
+    "id": "16",
+    "model_no": "XC-2021-P16",
+    "name": "Luxury Car 16",
+    "brand": "Xcel",
+    "year": 2021,
+    "price": 120000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A compact luxury car with sporty handling and premium cabin finishes."
+  },
+  {
+    "id": "17",
+    "model_no": "QF-2023-Q17",
+    "name": "Luxury Car 17",
+    "brand": "Quintess",
+    "year": 2023,
+    "price": 143000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "An executive sedan combining elegance with latest tech and driver assistance."
+  },
+  {
+    "id": "18",
+    "model_no": "VM-2024-R18",
+    "name": "Luxury Car 18",
+    "brand": "Vermillion",
+    "year": 2024,
+    "price": 148000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A luxury hybrid SUV with spacious rear seats and innovative on-board features."
+  },
+  {
+    "id": "19",
+    "model_no": "PL-2022-S19",
+    "name": "Luxury Car 19",
+    "brand": "Platinum",
+    "year": 2022,
+    "price": 127000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "A stylish luxury sedan with smooth ride and crafted interiors."
+  },
+  {
+    "id": "20",
+    "model_no": "AL-2023-T20",
+    "name": "Luxury Car 20",
+    "brand": "Allegro",
+    "year": 2023,
+    "price": 131000,
+    "image_url": "https://example.com/shared_image.jpg",
+    "description": "An exquisite luxury coupe with precise handling and luxurious amenities."
+  },
+  {
+  "id": "21",
+  "model_no": "ZX-2023-U21",
+  "name": "Luxury Car 21",
+  "brand": "Zenith",
+  "year": 2023,
+  "price": 155000,
+  "image_url": "https://example.com/shared_image_21.jpg",
+  "description": "A high-performance luxury sports car with cutting-edge technology and unparalleled speed."
+}
+]
+
+}
