@@ -8,6 +8,7 @@ import "./index.css";
 
 const router = createBrowserRouter(routes, {
   basename: "/car-management",
+  
 });
 
 createRoot(document.getElementById("root")).render(
