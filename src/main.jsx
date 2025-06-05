@@ -6,7 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import routes from "./routes/Routes.jsx"; // Make sure path is correct
 import "./index.css";
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, {
+  basename: "/car-management",
+});
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
