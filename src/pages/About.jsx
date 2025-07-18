@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import porsche from "../assets/images/porsche.jpg";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import Navbar from "../components/Navbar";
+import porsche911 from "../assets/images/porsche 911.jpg"
 
 function About() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -107,7 +107,7 @@ function About() {
             <div className="row">
               <div className="col-md-6">
                 <div className="image_iman">
-                  <img src={porsche} className="about_img" alt="About Us" />
+                  <img style={{ marginTop: '100px' }} src={porsche911} className="about_img" alt="About Us" />
                 </div>
               </div>
               <div className="col-md-6">

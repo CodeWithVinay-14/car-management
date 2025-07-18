@@ -7,7 +7,7 @@ import icon2 from "../assets/images/icon-2.png";
 import icon3 from "../assets/images/icon-3.png";
 import clientimg1 from "../assets/images/client-img1.png";
 import clientimg2 from "../assets/images/client-img2.png";
-import porsche from "../assets/images/porsche.jpg";
+import porsche911 from "../assets/images/porsche 911.jpg";
 import quickicon from "../assets/images/quick-icon.png";
 import Navbar from "../components/Navbar";
 import useGalleryForm from "../hooks/useGalleryForm";
@@ -116,7 +116,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="image_iman">
-                  <img src={porsche} className="about_img" alt="About Us" />
+                  <img style={{ marginTop: '100px' }} src={porsche911} className="about_img" alt="About Us" />
                 </div>
               </div>
               <div className="col-md-6">
